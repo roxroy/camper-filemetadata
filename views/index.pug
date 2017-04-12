@@ -12,3 +12,12 @@ block content
     p.
       #{url}  -  <strong>Show this page</strong> <br />
       #{url} post - <strong>Returns the file size {"size":902}</strong> <br />
+      
+    div.well.well-lg
+      h2 Try it: 
+      p <br>Select a file 
+      form(method="post",enctype="multipart/form-data",action="/")
+        p
+          input(type="file",name="upl")
+        p
+          input(type="submit")

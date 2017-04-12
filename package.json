@@ -1,5 +1,5 @@
 {
-  "name": "camper-tinyurl",
+  "name": "camper-filemetadata",
   "version": "1.0.0",
   "description": "File Metadata Microservice",
   "main": "server.js",

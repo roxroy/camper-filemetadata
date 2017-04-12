@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.container.backdrop
+    h1.text-center File Metadata Microservice
+    h2 User stories:
+    ol
+     li I can submit a FormData object that includes a file upload.
+     li When I submit something, I will receive the file size in bytes within the JSON response
+
+    h2 Example usage:
+    p.
+      #{url}  -  <strong>Show this page</strong> <br />
+      #{url} post - <strong>Returns the file size {"size":902}</strong> <br />
